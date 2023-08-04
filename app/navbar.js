@@ -16,14 +16,14 @@ export default function NavBar() {
     return (
         <>
 
-            <div className="flex flex-row justify-between">
-                <div className="w-1/4  m-2">
+            <div className="flex flex-row justify-end md:justify-between dark:bg-slate-700 dark:bg-opacity-30">
+                <div className="hidden md:block w-1/4 md:m-2">
                     <Image
                         src="/OpCln.ColorTrans.png"
                         alt="picture of logo"
                         width={200}
                         height={200}
-                        className="bg-sky-100 rounded-xl shadow-lg mx-auto my-2"
+                        className="bg-sky-100 rounded-xl shadow-lg mx-auto md:m-2 "
                     />
                 </div>
 
@@ -44,10 +44,10 @@ export default function NavBar() {
                     <div></div>
                     <div></div>
                 </div>
-                <div className="flex items-center cursor-pointer md:hidden  p-5">
+                <div className="flex items-center cursor-pointer md:hidden mx-auto my-5 mr-5">
                     <AiOutlineMenu
                         onClick={handleToggle}
-                        size={25}
+                        size={30}
                         className=""
                     />
                 </div>
