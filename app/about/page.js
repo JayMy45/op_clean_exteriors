@@ -6,7 +6,8 @@ export default function AboutPage() {
             </div>
             <div className="h-screen">
                 <div>
-
+                    <div className="flex flex-col justify-center items-center h-screen">
+                    </div>
                 </div>
             </div>
         </>

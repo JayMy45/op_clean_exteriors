@@ -4,7 +4,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import FooterLogo from '../public/FooterLogo.png';
 import GrayHouston from '../public/GrayHouston.png';
 import inHoustonColor from '../public/inHoustonColor.png';
 
@@ -38,13 +37,12 @@ export default function Footer() {
                             <div className="flex flex-col items-center h-full ml-10 mt-9">
                                 <Image
                                     className="items-center"
-                                    src={`/FooterLogo.png`}
+                                    src={`/OpCln.ColorTrans.png`}
                                     alt="Picture of Pen"
                                     width={150}
                                     height={100}
                                     priority={true}
                                 />
-                                {/* <h5 className="text-xs text-yellow-300">#RewriteTheNarrative</h5> */}
                             </div>
                         </div>
                     </div>
