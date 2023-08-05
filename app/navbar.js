@@ -9,11 +9,12 @@ export default function NavBar() {
             <div className="flex flex-row justify-end md:justify-between dark:bg-slate-700 dark:bg-opacity-30">
                 <div className="hidden md:block w-1/4 md:m-2">
                     <Image
-                        src={`https://res.cloudinary.com/dp04hh5pz/image/upload/v1682265599/OpClean/TransBkGrnd/400PngdpiLogo_bt4qkd.png`}
+                        src={`/OpCln.ColorTrans.png`}
                         alt="picture of logo"
+                        priority={true}
                         width={200}
                         height={200}
-                        className="bg-sky-100 rounded-xl shadow-lg mx-auto md:m-2 "
+                        className="bg-sky-100 bg-opacity-90 rounded-xl shadow-lg mx-auto md:m-2 "
                     />
                 </div>
 
