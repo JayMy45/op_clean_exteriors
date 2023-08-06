@@ -1,11 +1,7 @@
 
-'use client';
-
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import GrayHouston from '../public/GrayHouston.png';
-import inHoustonColor from '../public/inHoustonColor.png';
+import HoustonBrand from "./houston";
+
 
 
 
@@ -13,20 +9,6 @@ import inHoustonColor from '../public/inHoustonColor.png';
 
 export default function Footer() {
 
-    const defaultImageSrc = GrayHouston;
-    const hoverImageSrc = inHoustonColor;
-
-
-    const [imageSrc, setImageSrc] = useState(defaultImageSrc);
-
-
-    const handleMouseEnter = () => {
-        setImageSrc(hoverImageSrc);
-    };
-
-    const handleMouseLeave = () => {
-        setImageSrc(defaultImageSrc);
-    };
 
     return (
         <>
@@ -116,25 +98,9 @@ export default function Footer() {
                             <h4 className="text-xxs bg-cyan-950 md:bg-transparent rounded-xl text-zinc-300 md:text-slate-400 px-1">JayMyDesign<span className="text-yellow-500">*</span></h4>
                         </a>
                     </div>
-                    <div className="flex-shrink-0 mr-0 p-0" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <Link href="http://www.jeremynmyers.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Image
-                                className="items-center hidden md:block"
-                                src={imageSrc}
-                                alt="Picture of Dog"
-                                width={25}
-                                height={25}
-                                priority={true}
-                            />
-                        </Link>
-                    </div>
+                    <HoustonBrand />
                 </div>
             </footer>
-
-
         </>
     )
 
