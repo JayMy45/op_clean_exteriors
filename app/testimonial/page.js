@@ -20,7 +20,7 @@ export default function TestimonialPage() {
                     {/* Siding Bfr/Aftr Card */}
                     {/* <div className="flex flex-col md:flex-row  md: space-x-24 space-y-5 md:space-y-0 mx-auto"> */}
 
-                    <div className="shadow-xl w-fit rounded-xl overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div>
                             <h3></h3>
                         </div>
@@ -61,7 +61,7 @@ export default function TestimonialPage() {
                     </div>
 
                     {/* Concrete Bfr/Aftr Card */}
-                    <div className="shadow-xl w-fit rounded-xl overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div>
                             <h3></h3>
                         </div>
@@ -71,28 +71,49 @@ export default function TestimonialPage() {
                                 <div>
                                     <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
                                 </div>
-                                <div className="flex-grow flex items-center justify-center">
-                                    <Image
-                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691377789/OpClean/beforeAfter/Concrete1Before_noBorder_wphfg5_safylw.png"}
-                                        width={230}
-                                        height={230}
-                                        alt="picture of house siding before soft wash"
-                                    />
+                                <div className="flex flex-col justify-evenly">
+                                    <div className="pb-1">
+                                        <Image
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691442785/OpClean/beforeAfter/Before_and_AfterUpper_y8ax7m.jpg"}
+                                            width={233}
+                                            height={230}
+                                            alt="picture of house siding before soft wash"
+                                        />
+
+                                    </div>
+                                    <div className="flex-grow flex items-center justify-center">
+                                        <Image
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691377789/OpClean/beforeAfter/Concrete1Before_noBorder_wphfg5_safylw.png"}
+                                            width={230}
+                                            height={230}
+                                            alt="picture of house siding before soft wash"
+                                        />
+                                    </div>
                                 </div>
                             </div>
-
                             {/* Concrete After */}
                             <div className="flex flex-col h-96  bg-slate-300">
                                 <div>
                                     <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
                                 </div>
-                                <div className="flex-grow flex items-center justify-center">
-                                    <Image
-                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691377789/OpClean/beforeAfter/Concrete2After_noBorder_o8botb_fm7det.png"}
-                                        width={230}
-                                        height={230}
-                                        alt="picture of house siding before soft wash"
-                                    />
+                                <div>
+                                    <div className="pb-1">
+                                        <Image
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691442785/OpClean/beforeAfter/Before_and_AfterUpper_after_zvpmod.jpg"}
+                                            width={230}
+                                            height={230}
+                                            alt="picture of house siding before soft wash"
+                                        />
+
+                                    </div>
+                                    <div className="flex-grow flex items-center justify-center">
+                                        <Image
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691377789/OpClean/beforeAfter/Concrete2After_noBorder_o8botb_fm7det.png"}
+                                            width={230}
+                                            height={230}
+                                            alt="picture of house siding before soft wash"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +123,7 @@ export default function TestimonialPage() {
                     </div>
 
                     {/* Building Bfr/Aftr Card */}
-                    <div className="shadow-xl w-fit rounded-xl overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div>
                             <h3></h3>
                         </div>
@@ -143,7 +164,7 @@ export default function TestimonialPage() {
                     </div>
 
                     {/* Building Bfr/Aftr Card */}
-                    <div className="shadow-xl w-fit rounded-xl overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div>
                             <h3></h3>
                         </div>
