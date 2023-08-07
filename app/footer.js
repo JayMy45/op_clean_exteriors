@@ -2,11 +2,6 @@
 import Image from "next/image";
 import HoustonBrand from "./houston";
 
-
-
-
-
-
 export default function Footer() {
 
 
