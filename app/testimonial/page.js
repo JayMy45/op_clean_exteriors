@@ -20,10 +20,10 @@ export default function TestimonialPage() {
 
                     {/* Siding Card */}
                     <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                        <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
-                        <div className="flex flex-row  space-x-2 bg-white justify-center items-center h-auto">
-                            <div className="flex flex-row  space-x-2 bg-white h-96">
-                                <div className="flex flex-col h-96 bg-zinc-400">
+                            <div className="flex flex-row space-x-2 bg-gray-100 h-96">
+                                <div className="flex flex-col h-96">
                                     <div>
                                         <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
                                     </div>
@@ -40,7 +40,7 @@ export default function TestimonialPage() {
                                 </div>
 
                                 {/* Siding After */}
-                                <div className="flex flex-col h-96 bg-slate-300">
+                                <div className="flex flex-col h-96 bg-gray-100 ">
                                     <div>
                                         <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
                                     </div>
@@ -58,17 +58,16 @@ export default function TestimonialPage() {
 
                         {/* Siding  Bottom*/}
                         <div className="p-4 bg-slate-500">
-                            <p className="text-center font-bold text-2xl">Siding</p>
+                            <p className="text-center font-bold text-2xl text-gray-100">Siding</p>
                         </div>
                     </div>
 
                     {/* Concrete Card */}
                     <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
-
-                        <div className="flex flex-row  space-x-2 bg-white justify-center items-center h-auto">
+                        <div className="flex flex-row  space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             {/* Concrete Before */}
-                            <div className="flex flex-col h-96  bg-zinc-400">
+                            <div className="flex flex-col h-96  bg-gray-100 ">
                                 <div>
                                     <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
                                 </div>
@@ -94,7 +93,7 @@ export default function TestimonialPage() {
                             </div>
 
                             {/* Concrete After */}
-                            <div className="flex flex-col h-96  bg-slate-300">
+                            <div className="flex flex-col h-96  bg-gray-100 ">
                                 <div>
                                     <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
                                 </div>
@@ -122,16 +121,16 @@ export default function TestimonialPage() {
 
                         {/* Concrete Bottom */}
                         <div className="p-4 bg-slate-500">
-                            <p className="text-center font-bold text-2xl">Concrete</p>
+                            <p className="text-center font-bold text-2xl text-gray-100">Concrete</p>
                         </div>
                     </div>
 
                     {/* Brick Building Card */}
                     <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
-                        <div className="flex flex-row  space-x-2 bg-white justify-center items-center h-auto">
+                        <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             {/* Building Before */}
-                            <div className="flex flex-col h-96  bg-zinc-400">
+                            <div className="flex flex-col h-96  bg-gray-100 ">
                                 <div>
                                     <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
                                 </div>
@@ -145,8 +144,8 @@ export default function TestimonialPage() {
                                 </div>
                             </div>
 
-                            {/* Building After */}
-                            <div className="flex flex-col h-96  bg-slate-300">
+                            {/* Brick Building After */}
+                            <div className="flex flex-col h-96  bg-gray-100 ">
                                 <div>
                                     <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
                                 </div>
@@ -163,48 +162,51 @@ export default function TestimonialPage() {
 
                         {/* Brick Bottom */}
                         <div className="p-4 bg-slate-500">
-                            <p className="text-center font-bold text-2xl">Building</p>
+                            <p className="text-center font-bold text-2xl text-gray-100">Brick Buildings</p>
                         </div>
                     </div>
 
-                    {/* Building Sidewalk Card */}
+                    {/* Sidewalk Card */}
                     <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                        <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
-                        <div className="flex flex-row  space-x-2 bg-white justify-center items-center h-auto">
-                            {/* bSidewalk Before */}
-                            <div className="flex flex-col h-96  bg-zinc-400">
-                                <div>
-                                    <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
-                                </div>
-                                <div className="flex-grow flex items-center justify-center">
-                                    <Image
-                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691438041/OpClean/beforeAfter/SidewalkBefore_rtsuvs.png"}
-                                        width={230}
-                                        height={230}
-                                        alt="picture of house siding before soft wash"
-                                    />
-                                </div>
-                            </div>
+                            <div className="flex flex-row space-x-2 bg-gray-100  h-96">
+                                <div className="flex flex-col h-96 bg-gray-100 ">
+                                    <div>
+                                        <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
+                                    </div>
 
-                            {/* bSidewalk After */}
-                            <div className="flex flex-col h-96  bg-slate-300">
-                                <div>
-                                    <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
+                                    {/* Sidewalk Before */}
+                                    <div className="flex-grow flex items-center justify-center">
+                                        <Image
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691438041/OpClean/beforeAfter/SidewalkBefore_rtsuvs.png"}
+                                            width={230}
+                                            height={230}
+                                            alt="picture of house siding before soft wash"
+                                        />
+                                    </div>
                                 </div>
-                                <div className="flex-grow flex items-center justify-center">
-                                    <Image
-                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691438046/OpClean/beforeAfter/SidewalkAfter_ndubyx.png"}
-                                        width={230}
-                                        height={230}
-                                        alt="picture of house siding before soft wash"
-                                    />
+
+                                {/* Sidewalk After */}
+                                <div className="flex flex-col h-96 bg-gray-100 ">
+                                    <div>
+                                        <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
+                                    </div>
+                                    <div className="flex-grow flex items-center justify-center">
+                                        <Image
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691438046/OpClean/beforeAfter/SidewalkAfter_ndubyx.png"}
+                                            width={230}
+                                            height={230}
+                                            alt="picture of house siding before soft wash"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        {/* bSidewalk Bottom */}
+                        {/* Sidewalk Bottom */}
                         <div className="p-4 bg-slate-500">
-                            <p className="text-center font-bold text-2xl">SideWalks</p>
+                            <p className="text-center font-bold text-2xl text-gray-100">Sidewalks</p>
                         </div>
                     </div>
 
