@@ -6,7 +6,7 @@ export default function NavBar() {
 
     return (
         <>
-            <div className="flex flex-row justify-end md:justify-between">
+            <div className="flex flex-row justify-end md:justify-between border-b md:border-0  ">
                 <div className="hidden md:block w-1/4 md:m-2">
                     <Image
                         src={`/OpCln.ColorTrans.png`}
