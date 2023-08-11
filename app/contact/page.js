@@ -15,8 +15,8 @@ export default function ContactPage() {
                     <div className="h-full">
                         <Image
                             src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1691463621/OpClean/beforeAfter/OpCleanGear_uoam4j.png"
-                            width={812}
-                            height={812}
+                            width={815}
+                            height={815}
                             alt="OpClean Gear"
                         />
                     </div>
