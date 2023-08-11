@@ -10,11 +10,11 @@ export default function ContactPage() {
 
             {/* Form Container */}
             <div className="h-full md:p-5 flex items-center justify-center mt-5">
-                <div className="block md:flex md:rounded-xl overflow-hidden bg-gray-600">
+                <div className="flex md:rounded-xl overflow-hidden bg-gray-600">
 
                     <ContactForm className="flex-grow" />
 
-                    <div className="h-full hidden md:block">
+                    <div className="h-full hidden lg:block">
                         <Image
                             src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1691463621/OpClean/beforeAfter/OpCleanGear_uoam4j.png"
                             width={816}
@@ -22,6 +22,15 @@ export default function ContactPage() {
                             alt="OpClean Gear"
                         />
                     </div>
+                    <div className="flex justify-center items-center my-auto mr-3 rounded-2xl border border-green-600 bg-opacity-70 h-full hidden md:block bg-zinc-600 lg:hidden">
+                        <Image
+                            src="/OpCln.ColorTrans.png"
+                            width={500}
+                            height={500}
+                            alt="OpClean Gear"
+                        />
+                    </div>
+
                 </div>
             </div>
         </>
