@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineFacebook, AiOutlineInstagram, AiOutlineMenu, AiOutlineTwitter } from "react-icons/ai";
@@ -39,6 +40,19 @@ export default function Hamburger() {
     return (
         <>
             <div className="flex items-center cursor-pointer md:hidden mx-auto my-5 mr-5">
+                {/* ICON TO Left working on it */}
+                {/* <div className="md:hidden w-1/4 md:m-2">
+                    <Image
+                        src={`/OpCln.ColorTrans.png`}
+                        alt="picture of logo"
+                        priority={true}
+                        width={300}
+                        height={300}
+                        className="rounded-xl shadow-lg mx-auto md:m-2 "
+                    />
+                </div> */}
+
+
                 <AiOutlineMenu
                     onClick={handleToggle}
                     size={30}

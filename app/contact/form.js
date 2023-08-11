@@ -46,7 +46,7 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className="p-1 flex justify-center">
-                        <button className="bg-slate-500 rounded-md p-1 shadow-lg  w-2/3 md:w-full">
+                        <button className="bg-slate-500 rounded-md p-1 shadow-2xl  hover:bg-slate-300 hover:text-orange-600 w-2/3 md:w-full">
                             Submit
                         </button>
                     </div>

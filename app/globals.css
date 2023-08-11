@@ -16,12 +16,32 @@
   }
 }
 
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 52, 67, 158;
+    --background-mid1-rgb: 56, 110, 176;
+    --background-mid2-rgb: 81, 142, 164;
+    --background-mid3-rgb: 160, 162, 176;
+    --background-end-rgb: 173, 175, 175;
+  }
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 52, 67, 158;
+    --background-mid1-rgb: 56, 112, 176;
+    --background-mid2-rgb: 69, 152, 10;
+    --background-mid3-rgb: 166, 168, 171;
+    --background-end-rgb: 173, 173, 175;
+  }
+} */
+
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }

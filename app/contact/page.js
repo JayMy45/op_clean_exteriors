@@ -4,7 +4,7 @@ import ContactForm from "./form";
 export default function ContactPage() {
     return (
         <>
-            <div className="text-center mt-4">
+            <div className="text-center mt-5">
                 <h1 className="uppercase font-bold text-2xl md:text-4xl">Contact Me</h1>
             </div>
 
