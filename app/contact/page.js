@@ -4,19 +4,21 @@ import ContactForm from "./form";
 export default function ContactPage() {
     return (
         <>
-            <div className="text-center">
-                <h1>Hello Contact Page</h1>
+            <div className="text-center mt-4">
+                <h1 className="uppercase font-bold text-2xl md:text-4xl">Contact Me</h1>
             </div>
-            <div className="h-full p-5 flex items-center justify-center">
-                <div className="flex border rounded-xl overflow-hidden bg-gray-600">
 
-                    <ContactForm />
+            {/* Form Container */}
+            <div className="h-full md:p-5 flex items-center justify-center mt-5">
+                <div className="block md:flex md:rounded-xl overflow-hidden bg-gray-600">
 
-                    <div className="h-full">
+                    <ContactForm className="flex-grow" />
+
+                    <div className="h-full hidden md:block">
                         <Image
                             src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1691463621/OpClean/beforeAfter/OpCleanGear_uoam4j.png"
-                            width={815}
-                            height={815}
+                            width={816}
+                            height={816}
                             alt="OpClean Gear"
                         />
                     </div>
