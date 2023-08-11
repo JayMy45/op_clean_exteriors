@@ -16,6 +16,25 @@ export default function Hamburger() {
         console.log('NavBar rendered');
     }, []);
 
+    useEffect(() => {
+        console.log('NavBar rendered');
+    }, []);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 739 && navbarOpen) {
+                setNavbarOpen(false);
+            }
+        };
+
+        // Attach the event listener
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup the event listener on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [navbarOpen]);
 
     return (
         <>
