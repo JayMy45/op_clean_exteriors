@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function TestimonialPage() {
+export default function WorkPage() {
 
     return (
         <>

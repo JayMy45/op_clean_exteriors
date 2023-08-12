@@ -24,8 +24,8 @@ export default function NavBar() {
                             <div className="mx-auto space-x-5">
                                 <Link href="/" className="uppercase">Home</Link>
                                 <Link href="about" className="uppercase">About</Link>
-                                <Link href="testimonial" className="uppercase">Testimonial</Link>
-                                <Link href="contact" className="uppercase">Services</Link>
+                                <Link href="work" className="uppercase">Work</Link>
+                                <Link href="services" className="uppercase">Services</Link>
                                 <Link href="contact" className="uppercase">Contact</Link>
                             </div>
                         </div>
