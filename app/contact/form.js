@@ -28,7 +28,7 @@ export default function ContactForm() {
         const data = {
             name: event.target.name.value,
             email: event.target.email.value,
-            email: event.target.phone.value,
+            phone: event.target.phone.value,
             message: event.target.message.value,
         };
         console.log(data);
@@ -86,7 +86,7 @@ export default function ContactForm() {
                             <input
                                 id='phone'
                                 className="text-black p-1 w-full"
-                                type="tel"
+                                type="text"
                                 minLength={7}
                                 maxLength={15}
                                 placeholder="Phone Number"

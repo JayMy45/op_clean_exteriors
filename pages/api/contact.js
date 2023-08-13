@@ -38,7 +38,7 @@ export default async function ContactAPI(req, res) {
             from: user,
             to: "jnmyers774@gmail.com",
             replyTo: email,
-            subject: `Rewriting Narratives Submission ${name}`,
+            subject: `OpClean Submission ${name}`,
             html: `
             <p>Name: ${name}</p>
             <p>Email: ${email}</p>
