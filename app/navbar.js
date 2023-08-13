@@ -8,14 +8,16 @@ export default function NavBar() {
         <>
             <div className="flex flex-row justify-end md:justify-between border-b md:border-0  ">
                 <div className="hidden md:block w-1/4 md:m-2">
-                    <Image
-                        src={`/OpCln.ColorTrans.png`}
-                        alt="picture of logo"
-                        priority={true}
-                        width={200}
-                        height={200}
-                        className="bg-sky-100 bg-opacity-90 rounded-xl shadow-lg mx-auto md:m-2 "
-                    />
+                    <div className="flex justify-center">
+                        <Image
+                            src={`/OpCln.ColorTrans.png`}
+                            alt="picture of logo"
+                            priority={true}
+                            width={200}
+                            height={200}
+                            className="rounded-xl mx-auto md:m-2 "
+                        />
+                    </div>
                 </div>
 
                 <div className="hidden md:block w-2/4 h-inherent">
