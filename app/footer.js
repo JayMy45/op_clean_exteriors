@@ -14,9 +14,9 @@ export default function Footer() {
                             <div className="flex flex-col items-center h-full ml-10 mt-9">
                                 <Image
                                     className="items-center"
-                                    src={`/OpCln.ColorTrans.png`}
+                                    src={`/LOGO.png`}
                                     alt="Picture of Pen"
-                                    width={150}
+                                    width={100}
                                     height={100}
                                     priority={true}
                                 />
