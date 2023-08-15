@@ -32,3 +32,14 @@ body {
   min-height: 100%;
   z-index: -1;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .video-container video {
+    /* offset att building to the left */
+    object-position: 30% top;
+
+    /* centers the att building */
+    /* object-position: 22% top; */
+  }
+}
