@@ -3,6 +3,8 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
+
+      {/* Nashville Video */}
       <video
         id='fullscreenVideo'
         autoPlay
@@ -11,12 +13,8 @@ export default function Home() {
       >
         <source src="https://res.cloudinary.com/dp04hh5pz/video/upload/v1692109540/OpClean/Vidoes/Nashville.Video_mtqhuc.mp4" type="video/mp4" />
       </video>
-      {/* <ReactPlayer url={'https://res.cloudinary.com/dp04hh5pz/video/upload/v1692109540/OpClean/Vidoes/Nashville.Video_mtqhuc.mp4'} /> */}
-      <div
-        className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex"
 
-      >
-
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <div className="fixed md:hidden bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
