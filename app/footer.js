@@ -7,7 +7,7 @@ export default function Footer() {
 
     return (
         <>
-            <footer className="bg-gray-800 dark:bg-transparent md:mt-5 h-fit pt-3 md:pt-5">
+            <footer className="bg-gray-800 dark:bg-transparent h-fit pt-3">
                 <div className="flex flex-col md:flex-row h-full items-center">
                     <div className="">
                         <div className="my-auto h-full flex hidden md:block">

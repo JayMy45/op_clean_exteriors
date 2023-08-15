@@ -6,7 +6,7 @@ export default function NavBar() {
 
     return (
         <>
-            <div className="flex flex-row justify-end md:justify-between border-b md:border-0  ">
+            <div className="flex flex-row justify-end md:justify-between border-b md:border-0">
                 <div className="hidden md:block w-1/4 md:m-2">
                     <div className="flex justify-center">
                         <Image
@@ -23,7 +23,7 @@ export default function NavBar() {
                 <div className="hidden md:block w-2/4 h-inherent">
                     <div className="flex items-center justify-center w-full h-full">
                         <div className="flex w-full">
-                            <div className="mx-auto space-x-5">
+                            <div className="mx-auto space-x-5 text-slate-600">
                                 <Link href="/" className="uppercase">Home</Link>
                                 <Link href="about" className="uppercase">About</Link>
                                 <Link href="work" className="uppercase">Work</Link>
