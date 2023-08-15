@@ -6,7 +6,7 @@ export default function NavBar() {
 
     return (
         <>
-            <div className="flex flex-row justify-end md:justify-between border-b md:border-0">
+            <div className="flex flex-row justify-end md:justify-between border-b md:border-0 bg-slate-500 bg-opacity-50 md:bg-transparent">
                 <div className="hidden md:block w-1/4 md:m-2">
                     <div className="flex justify-center">
                         <Image

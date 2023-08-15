@@ -87,11 +87,11 @@ export default function Hamburger() {
                                 About
                             </li>
                         </Link>
-                        <Link href="testimonial">
+                        <Link href="work">
                             <li
                                 onClick={() => setNavbarOpen(false)}
                                 className="py-4 cursor-pointer">
-                                Testimonial
+                                Work
                             </li>
                         </Link>
                         <Link href="contact">
