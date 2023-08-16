@@ -65,7 +65,7 @@ export default function ContactForm() {
             <form onSubmit={handleSubmit}
                 className="w-screen md:w-1/2 bg-blend-lighten h-full p-0 md:p-10"
             >
-                <div className="p-2 rounded-md shadow-lg bg-sky-900">
+                <div className="p-2 rounded-md shadow-lg bg-sky-800">
                     <div className="items-center rounded-md md:bg-slate-700 p-2">
 
                         {/* Name */}
@@ -124,7 +124,7 @@ export default function ContactForm() {
                     <div className="p-1 flex justify-center">
                         <button
                             disabled={loading}
-                            className="bg-slate-500 rounded-md p-1 shadow-2xl  hover:bg-slate-300 hover:text-orange-600 w-2/3 md:w-full">
+                            className="bg-slate-300 rounded-md py-1 shadow-2xl  hover:bg-slate-500 hover:text-orange-600 hover:text-2xl hover:font-bold w-2/3 md:w-full">
                             Submit
                         </button>
                     </div>

@@ -56,7 +56,7 @@ export default function Hamburger() {
                 <AiOutlineMenu
                     onClick={handleToggle}
                     size={30}
-                    className=""
+                    className="text-slate-100"
                 />
             </div>
             <div className={navbarOpen
@@ -65,7 +65,7 @@ export default function Hamburger() {
             }
             >
                 <div className="flex w-full items-center justify-end">
-                    <div onClick={handleToggle} className="cursor-pointer">
+                    <div onClick={handleToggle} className="cursor-pointer text-slate-200">
                         <AiOutlineClose
                             size={30}
                         />
@@ -76,21 +76,21 @@ export default function Hamburger() {
                         <Link href="/">
                             <li
                                 onClick={() => setNavbarOpen(false)}
-                                className="py-4 cursor-pointer">
+                                className="py-4 cursor-pointer text-slate-200">
                                 Home
                             </li>
                         </Link>
                         <Link href="about">
                             <li
                                 onClick={() => setNavbarOpen(false)}
-                                className="py-4 cursor-pointer">
+                                className="py-4 cursor-pointer text-slate-200">
                                 About
                             </li>
                         </Link>
                         <Link href="work">
                             <li
                                 onClick={() => setNavbarOpen(false)}
-                                className="py-4 cursor-pointer">
+                                className="py-4 cursor-pointer text-slate-200">
                                 Work
                             </li>
                         </Link>
@@ -98,7 +98,7 @@ export default function Hamburger() {
                             <li
                                 onClick={() => setNavbarOpen(false)
                                 }
-                                className="py-4 cursor-pointer">
+                                className="py-4 cursor-pointer text-slate-200">
                                 Contact
                             </li>
                         </Link>
@@ -109,19 +109,19 @@ export default function Hamburger() {
 
                         <AiOutlineInstagram
                             size={30}
-                            className="cursor-pointer"
+                            className="cursor-pointer text-slate-200"
                             onClick={() => setNavbarOpen(false)
                             }
                         />
                         <AiOutlineFacebook
                             size={30}
-                            className="cursor-pointer"
+                            className="cursor-pointer text-slate-200"
                             onClick={() => setNavbarOpen(false)
                             }
                         />
                         <AiOutlineTwitter
                             size={30}
-                            className="cursor-pointer"
+                            className="cursor-pointer text-slate-200"
                             onClick={() => setNavbarOpen(false)
                             }
                         />
