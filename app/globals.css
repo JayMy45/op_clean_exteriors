@@ -8,21 +8,37 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 214, 221, 224;
-    --background-end-rgb: 54.9, 57.3, 67.5;
+    --background-start-rgb: 0, 0, 255;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-image: url('/OpClean.skyFall.png');
   }
 }
 
 
-body {
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--background-image) no-repeat center center fixed;
+  background-size: cover;
+  /* To make sure the image covers the full viewport */
 }
+
 
 #fullscreenVideo {
   position: fixed;
@@ -31,6 +47,16 @@ body {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+}
+
+.contact-page {
+  background-image: url('/OpClean.skyFall.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Media query for smaller screens */
