@@ -10,7 +10,7 @@ export default function ContactPage() {
 
             {/* Form Container */}
             <div className="h-full md:p-5 flex items-center justify-center mt-5">
-                <div className="flex md:rounded-xl overflow-hidden bg-gray-900 bg-opacity-30">
+                <div className="flex md:rounded-lg shadow-2xl overflow-hidden bg-gray-900 bg-opacity-25">
 
                     <ContactForm className="flex-grow" />
 
