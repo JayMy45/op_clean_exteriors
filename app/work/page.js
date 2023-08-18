@@ -24,35 +24,17 @@ export default function WorkPage() {
 
                             <div className="flex flex-row space-x-2 bg-gray-100 h-96">
                                 <div className="flex flex-col h-96">
-                                    <div>
-                                        <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
-                                    </div>
-
                                     {/* Siding Before */}
-                                    <div className="flex-grow flex items-center justify-center">
+                                    <div className="flex flex-grow">
                                         <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691371604/OpClean/beforeAfter/SidingBefore_x9c4mk.png"}
-                                            width={230}
-                                            height={230}
+                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333748/OpClean/beforeAfter/Before-After/Siding.BA2_xpzmlt.png"}
+                                            width={500}
+                                            height={500}
                                             alt="picture of house siding before soft wash"
                                         />
                                     </div>
                                 </div>
 
-                                {/* Siding After */}
-                                <div className="flex flex-col h-96 bg-gray-100 ">
-                                    <div>
-                                        <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
-                                    </div>
-                                    <div className="flex-grow flex items-center justify-center">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691371604/OpClean/beforeAfter/SidingAfter_dmwyuh.png"}
-                                            width={230}
-                                            height={230}
-                                            alt="picture of house siding after soft wash"
-                                        />
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -68,53 +50,13 @@ export default function WorkPage() {
 
                             {/* Concrete Before */}
                             <div className="flex flex-col h-96  bg-gray-100 ">
-                                <div>
-                                    <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
-                                </div>
-                                <div className="">
-                                    <div className="pb-1">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691442785/OpClean/beforeAfter/Before_and_AfterUpper_y8ax7m.jpg"}
-                                            width={233}
-                                            height={230}
-                                            alt="picture of house siding before soft wash"
-                                        />
-
-                                    </div>
-                                    <div className="flex-grow flex items-center justify-center">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691377789/OpClean/beforeAfter/Concrete1Before_noBorder_wphfg5_safylw.png"}
-                                            width={230}
-                                            height={230}
-                                            alt="picture of house siding before soft wash"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Concrete After */}
-                            <div className="flex flex-col h-96  bg-gray-100 ">
-                                <div>
-                                    <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
-                                </div>
-                                <div>
-                                    <div className="pb-1">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691442785/OpClean/beforeAfter/Before_and_AfterUpper_after_zvpmod.jpg"}
-                                            width={230}
-                                            height={230}
-                                            alt="picture of house siding before soft wash"
-                                        />
-
-                                    </div>
-                                    <div className="flex-grow flex items-center justify-center">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691377789/OpClean/beforeAfter/Concrete2After_noBorder_o8botb_fm7det.png"}
-                                            width={230}
-                                            height={230}
-                                            alt="picture of house siding before soft wash"
-                                        />
-                                    </div>
+                                <div className="flex flex-grow">
+                                    <Image
+                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333634/OpClean/beforeAfter/Before-After/Concrete.BA4_swxmfk.png"}
+                                        width={500}
+                                        height={500}
+                                        alt="picture of house siding before soft wash"
+                                    />
                                 </div>
                             </div>
                         </div>
