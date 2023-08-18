@@ -18,18 +18,18 @@ export default function WorkPage() {
                 {/* Before and After Card Container */}
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 py-5 border">
 
-                    {/* Siding Card */}
+                    {/* Siding1 Card */}
                     <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             <div className="flex flex-row space-x-2 bg-gray-100 h-96">
                                 <div className="flex flex-col h-96">
-                                    {/* Siding Before */}
+                                    {/* Siding1 Before */}
                                     <div className="flex flex-grow">
                                         <Image
                                             src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333748/OpClean/beforeAfter/Before-After/Siding.BA2_xpzmlt.png"}
                                             width={500}
-                                            height={500}
+                                            height={400}
                                             alt="picture of house siding before soft wash"
                                         />
                                     </div>
@@ -38,7 +38,29 @@ export default function WorkPage() {
                             </div>
                         </div>
 
-                        {/* Siding  Bottom*/}
+                        {/* Siding2 Bottom*/}
+                        <div className="p-4 bg-slate-500">
+                            <p className="text-center font-bold text-2xl text-gray-100">Siding</p>
+                        </div>
+                    </div>
+
+                    {/* Siding2 Card */}
+                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                        <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
+                            <div className="flex flex-col h-96 bg-gray-100 ">
+
+                                <div className="flex flex-grow">
+                                    <Image
+                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333748/OpClean/beforeAfter/Before-After/Siding.BA4_tv7ipw.png"}
+                                        width={500}
+                                        height={400}
+                                        alt="picture of house siding before soft wash"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Siding2 Bottom */}
                         <div className="p-4 bg-slate-500">
                             <p className="text-center font-bold text-2xl text-gray-100">Siding</p>
                         </div>
@@ -54,7 +76,7 @@ export default function WorkPage() {
                                     <Image
                                         src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333634/OpClean/beforeAfter/Before-After/Concrete.BA4_swxmfk.png"}
                                         width={500}
-                                        height={500}
+                                        height={400}
                                         alt="picture of house siding before soft wash"
                                     />
                                 </div>
@@ -73,29 +95,11 @@ export default function WorkPage() {
 
                             {/* Building Before */}
                             <div className="flex flex-col h-96  bg-gray-100 ">
-                                <div>
-                                    <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
-                                </div>
-                                <div className="flex-grow flex items-center justify-center">
+                                <div className="flex flex-grow">
                                     <Image
-                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691435405/OpClean/beforeAfter/buildingBefore_nbye8o.png"}
-                                        width={230}
-                                        height={230}
-                                        alt="picture of house siding before soft wash"
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Brick Building After */}
-                            <div className="flex flex-col h-96  bg-gray-100 ">
-                                <div>
-                                    <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
-                                </div>
-                                <div className="flex-grow flex items-center justify-center">
-                                    <Image
-                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691435405/OpClean/beforeAfter/buildingAfter_wppv3n.png"}
-                                        width={230}
-                                        height={230}
+                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333748/OpClean/beforeAfter/Before-After/Building.BA2_gd41bd.png"}
+                                        width={500}
+                                        height={400}
                                         alt="picture of house siding before soft wash"
                                     />
                                 </div>
@@ -108,40 +112,21 @@ export default function WorkPage() {
                         </div>
                     </div>
 
+
+
                     {/* Sidewalk Card */}
                     <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
+                            <div className="flex flex-col h-96 bg-gray-100 ">
 
-                            <div className="flex flex-row space-x-2 bg-gray-100  h-96">
-                                <div className="flex flex-col h-96 bg-gray-100 ">
-                                    <div>
-                                        <h3 className="text-black text-center font-semibold text-xl p-2">Before</h3>
-                                    </div>
-
-                                    {/* Sidewalk Before */}
-                                    <div className="flex-grow flex items-center justify-center">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691438041/OpClean/beforeAfter/SidewalkBefore_rtsuvs.png"}
-                                            width={230}
-                                            height={230}
-                                            alt="picture of house siding before soft wash"
-                                        />
-                                    </div>
-                                </div>
-
-                                {/* Sidewalk After */}
-                                <div className="flex flex-col h-96 bg-gray-100 ">
-                                    <div>
-                                        <h3 className="text-black text-center font-semibold text-xl p-2">After</h3>
-                                    </div>
-                                    <div className="flex-grow flex items-center justify-center">
-                                        <Image
-                                            src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1691438046/OpClean/beforeAfter/SidewalkAfter_ndubyx.png"}
-                                            width={230}
-                                            height={230}
-                                            alt="picture of house siding before soft wash"
-                                        />
-                                    </div>
+                                {/* Sidewalk Before */}
+                                <div className="flex flex-grow">
+                                    <Image
+                                        src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333748/OpClean/beforeAfter/Before-After/Sidewalk.BA2_rf62ow.png"}
+                                        width={500}
+                                        height={400}
+                                        alt="picture of house siding before soft wash"
+                                    />
                                 </div>
                             </div>
                         </div>
