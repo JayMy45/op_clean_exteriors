@@ -4,23 +4,17 @@ export default function WorkPage() {
 
     return (
         <>
-            <div className="text-center">
-                <div className="text-left">
-                    <h1>Work</h1>
-                </div>
-            </div>
-
             {/* Main div */}
-            <div className="h-fit px-2 md:px-28 border">
-                <div className="text-center p-10 border">
-                    <h2>Previous Work</h2>
+            <div className="h-fit px-2 md:px-28">
+                <div className="text-center p-10">
+                    <h2 className="text-4xl font-bold uppercase">Previous Work</h2>
                 </div>
                 {/* Before and After Card Container */}
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 py-5 border">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 py-5">
 
                     {/* Siding1 Card */}
-                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
-                        <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
+                    <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                        <div className="flex flex-row space-x-2 bg-gray-100 justify-center items-center h-auto shadow-md">
 
                             <div className="flex flex-row space-x-2 bg-gray-100 h-96">
                                 <div className="flex flex-col h-96">
@@ -45,7 +39,7 @@ export default function WorkPage() {
                     </div>
 
                     {/* Siding2 Card */}
-                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
                             <div className="flex flex-col h-96 bg-gray-100 ">
 
@@ -67,7 +61,7 @@ export default function WorkPage() {
                     </div>
 
                     {/* Concrete Card */}
-                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row  space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             {/* Concrete Before */}
@@ -90,7 +84,7 @@ export default function WorkPage() {
                     </div>
 
                     {/* Brick Building Card */}
-                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             {/* Building Before */}
@@ -115,7 +109,7 @@ export default function WorkPage() {
 
 
                     {/* Sidewalk Card */}
-                    <div className="shadow-xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
+                    <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
                             <div className="flex flex-col h-96 bg-gray-100 ">
 
