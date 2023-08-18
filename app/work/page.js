@@ -16,8 +16,8 @@ export default function WorkPage() {
                     <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100 justify-center items-center h-auto shadow-md">
 
-                            <div className="flex flex-row space-x-2 bg-gray-100 h-96">
-                                <div className="flex flex-col h-96">
+                            <div className="flex flex-row space-x-2 bg-gray-100">
+                                <div className="flex flex-col">
                                     {/* Siding1 Before */}
                                     <div className="flex flex-grow">
                                         <Image
@@ -34,14 +34,14 @@ export default function WorkPage() {
 
                         {/* Siding2 Bottom*/}
                         <div className="p-4 bg-slate-500">
-                            <p className="text-center font-bold text-2xl text-gray-100">Siding</p>
+                            <p className="text-center font-bold text-2xl text-gray-100">Vinyl Siding</p>
                         </div>
                     </div>
 
                     {/* Siding2 Card */}
                     <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
-                            <div className="flex flex-col h-96 bg-gray-100 ">
+                            <div className="flex flex-col bg-gray-100 ">
 
                                 <div className="flex flex-grow">
                                     <Image
@@ -56,7 +56,7 @@ export default function WorkPage() {
 
                         {/* Siding2 Bottom */}
                         <div className="p-4 bg-slate-500">
-                            <p className="text-center font-bold text-2xl text-gray-100">Siding</p>
+                            <p className="text-center font-bold text-2xl text-gray-100">Vinyl Siding</p>
                         </div>
                     </div>
 
@@ -65,7 +65,7 @@ export default function WorkPage() {
                         <div className="flex flex-row  space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             {/* Concrete Before */}
-                            <div className="flex flex-col h-96  bg-gray-100 ">
+                            <div className="flex flex-col bg-gray-100 ">
                                 <div className="flex flex-grow">
                                     <Image
                                         src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333634/OpClean/beforeAfter/Before-After/Concrete.BA4_swxmfk.png"}
@@ -88,7 +88,7 @@ export default function WorkPage() {
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
 
                             {/* Building Before */}
-                            <div className="flex flex-col h-96  bg-gray-100 ">
+                            <div className="flex flex-col  bg-gray-100 ">
                                 <div className="flex flex-grow">
                                     <Image
                                         src={"https://res.cloudinary.com/dp04hh5pz/image/upload/v1692333748/OpClean/beforeAfter/Before-After/Building.BA2_gd41bd.png"}
@@ -111,7 +111,7 @@ export default function WorkPage() {
                     {/* Sidewalk Card */}
                     <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
                         <div className="flex flex-row space-x-2 bg-gray-100  justify-center items-center h-auto shadow-md">
-                            <div className="flex flex-col h-96 bg-gray-100 ">
+                            <div className="flex flex-col bg-gray-100 ">
 
                                 {/* Sidewalk Before */}
                                 <div className="flex flex-grow">
