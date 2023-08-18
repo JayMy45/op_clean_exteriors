@@ -33,7 +33,7 @@ export default function WorkPage() {
                         </div>
 
                         {/* Siding2 Bottom*/}
-                        <div className="p-4 bg-slate-500">
+                        <div className="p-3 bg-slate-500">
                             <p className="text-center font-bold text-2xl text-gray-100">Vinyl Siding</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function WorkPage() {
                         </div>
 
                         {/* Siding2 Bottom */}
-                        <div className="p-4 bg-slate-500">
+                        <div className="p-3 bg-slate-500">
                             <p className="text-center font-bold text-2xl text-gray-100">Vinyl Siding</p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ export default function WorkPage() {
                         </div>
 
                         {/* Concrete Bottom */}
-                        <div className="p-4 bg-slate-500">
+                        <div className="p-3 bg-slate-500">
                             <p className="text-center font-bold text-2xl text-gray-100">Concrete</p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ export default function WorkPage() {
                         </div>
 
                         {/* Brick Bottom */}
-                        <div className="p-4 bg-slate-500">
+                        <div className="p-3 bg-slate-500">
                             <p className="text-center font-bold text-2xl text-gray-100">Brick Buildings</p>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ export default function WorkPage() {
                         </div>
 
                         {/* Sidewalk Bottom */}
-                        <div className="p-4 bg-slate-500">
+                        <div className="p-3 bg-slate-500">
                             <p className="text-center font-bold text-2xl text-gray-100">Sidewalks</p>
                         </div>
                     </div>
