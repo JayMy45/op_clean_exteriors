@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between overflow-hidden">
 
       {/* Nashville Video */}
-      <div class="video-container">
+      <div className="video-container">
         <video
           id='fullscreenVideo'
           autoPlay
