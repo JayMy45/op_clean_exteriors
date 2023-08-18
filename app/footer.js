@@ -46,14 +46,6 @@ export default function Footer() {
                                         </a>
                                     </div>
                                 </div>
-                                <div>
-
-                                    <div className="text-slate-700 text-xs italic">
-                                        <a href="">
-                                            ClubHouse
-                                        </a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -72,15 +64,22 @@ export default function Footer() {
                             </div>
                             <div>
                                 <div className="text-slate-700 text-xs italic">
-                                    <a href="contact">
-                                        Contact
+                                    <a href="work">
+                                        Work
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="text-slate-700 text-xs italic">
+                                    <a href="about">
+                                        About
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div className="text-slate-700 text-xs italic">
                                     <a href="contact">
-                                        About
+                                        Contact
                                     </a>
                                 </div>
                             </div>
@@ -90,7 +89,7 @@ export default function Footer() {
                 <div className="flex flex-row justify-center md:justify-end py-2 md:py-0">
                     <div className="flex items-center pb-3 md:p-0">
                         <a href="http://www.jeremynmyers.com">
-                            <h4 className="text-xxs bg-cyan-950 md:bg-transparent rounded-xl text-zinc-300 md:text-zinc-800 px-1">JayMyDesign<span className="text-yellow-500">*</span></h4>
+                            <h4 className="text-xxs bg-cyan-950 md:bg-transparent rounded-xl text-zinc-300 md:text-zinc-800 px-2">JayMyDesign<span className="text-yellow-500">*</span></h4>
                         </a>
                     </div>
                     <HoustonBrand />
