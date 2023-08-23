@@ -14,10 +14,10 @@ export default function WorkPage() {
 
                     {/* Siding1 Card */}
                     <div className="shadow-2xl w-fit rounded-md overflow-hidden pb-2 mx-auto bg-slate-500">
-                        <div className="flex flex-row space-x-2 bg-gray-100 justify-center items-center h-auto shadow-md">
+                        <div className="flex flex-row space-x-2 bg-gray-100 justify-center items-center h-auto shadow-lg">
 
-                            <div className="flex flex-row space-x-2 bg-gray-100">
-                                <div className="flex flex-col">
+                            <div className="flex flex-row overflow-hidden space-x-2 bg-gray-100 border border-gray-500 ">
+                                <div className="flex flex-col  overflow-hidden">
                                     {/* Siding1 Before */}
                                     <div className="flex flex-grow">
                                         <Image
@@ -25,6 +25,7 @@ export default function WorkPage() {
                                             width={500}
                                             height={400}
                                             alt="picture of house siding before soft wash"
+                                            className="rounded-sm"
                                         />
                                     </div>
                                 </div>
@@ -33,7 +34,7 @@ export default function WorkPage() {
                         </div>
 
                         {/* Siding2 Bottom*/}
-                        <div className="p-3 bg-slate-500">
+                        <div className="p-3 bg-slate-500 border border-gray-500 ">
                             <p className="text-center font-bold text-2xl text-gray-100">Vinyl Siding</p>
                         </div>
                     </div>
