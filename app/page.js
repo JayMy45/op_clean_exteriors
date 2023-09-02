@@ -9,6 +9,7 @@ export default function Home() {
         <video
           id='fullscreenVideo'
           autoPlay
+          playsInline
           muted
           className="w-screen h-screen object-cover flex-1"
         >
