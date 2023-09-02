@@ -82,7 +82,7 @@ export default function ContactForm() {
                         </div>
 
                         {/* Phone */}
-                        <div className="p-1 mb-10 md:mb-3 mb-2 border border-slate-400 rounded-sm w-2/3 mx-auto w-full">
+                        <div className="p-1 mb-10 md:mb-3 md:mb-3 border border-slate-400 rounded-sm w-2/3 mx-auto w-full">
                             <input
                                 id='phone'
                                 className="text-black p-3 md:p-1 w-full"
@@ -121,7 +121,7 @@ export default function ContactForm() {
                             />
                         </div>
                     </div>
-                    <div className="p-1 mb-10 md:mb-0 flex justify-center">
+                    <div className="p-1 mb-10 md:mb-0 md:mt-2 flex justify-center">
                         <button
                             disabled={loading}
                             className="bg-slate-300 rounded-sm py-3 md:py-1 shadow-2xl  hover:bg-slate-500 hover:text-orange-600 hover:text-2xl hover:font-bold w-2/3 w-full">

@@ -4,7 +4,7 @@ import ContactForm from "./form";
 export default function ContactPage() {
     return (
         <>
-            <div className="h-screen md:h-fit md:px-28">
+            <div className="h-fit md:px-28">
                 <div className="text-center p-10">
                     {/* <div className="container-page text-center"> */}
                     <h1 className="uppercase font-bold text-2xl md:text-4xl">Contact Me</h1>
@@ -31,8 +31,6 @@ export default function ContactPage() {
                                 height={250}
                                 alt="OpClean Gear"
                             />
-                            {/* </div> */}
-
                         </div>
                     </div>
                 </div>
