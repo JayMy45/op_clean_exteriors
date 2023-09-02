@@ -69,10 +69,10 @@ export default function ContactForm() {
                     <div className="items-center rounded-md md:bg-slate-700 p-2">
 
                         {/* Name */}
-                        <div className="p-1 mb-3 border border-slate-400 rounded-md w-2/3 mx-auto md:w-full">
+                        <div className="p-1 mb-10 md:mb-3 mt-10 md:mt-0 border border-slate-400 rounded-sm w-2/3 mx-auto w-full">
                             <input
                                 id='name'
-                                className="text-black p-1 w-full"
+                                className="text-black p-3 md:p-1 w-full"
                                 type="text"
                                 minLength={2}
                                 maxLength={150}
@@ -82,10 +82,10 @@ export default function ContactForm() {
                         </div>
 
                         {/* Phone */}
-                        <div className="p-1 mb-3 mb-2 border border-slate-400 rounded-md w-2/3 mx-auto md:w-full">
+                        <div className="p-1 mb-10 md:mb-3 mb-2 border border-slate-400 rounded-sm w-2/3 mx-auto w-full">
                             <input
                                 id='phone'
-                                className="text-black p-1 w-full"
+                                className="text-black p-3 md:p-1 w-full"
                                 type="text"
                                 minLength={7}
                                 maxLength={15}
@@ -94,10 +94,10 @@ export default function ContactForm() {
                         </div>
 
                         {/* Email */}
-                        <div className="p-1 mb-3 border border-slate-400 rounded-md  w-2/3 mx-auto md:w-full">
+                        <div className="p-1 mb-10 md:mb-3 border border-slate-400 rounded-sm  w-2/3 mx-auto w-full">
                             <input
                                 id='email'
-                                className="text-black p-1 w-full"
+                                className="text-black p-3 w-full"
                                 required
                                 type="email"
                                 minLength={5}
@@ -109,10 +109,10 @@ export default function ContactForm() {
                         </div>
 
                         {/* Message */}
-                        <div className="p-1 border border-slate-400 rounded-md w-2/3 mx-auto md:w-full">
+                        <div className="p-1 mb-5 md:mb-0 border border-slate-400 rounded-sm w-2/3 mx-auto w-full">
                             <textarea
                                 id="message"
-                                className="text-black  w-full"
+                                className="text-black w-full p-3 md:p-0"
                                 placeholder="Leave a message..."
                                 name="message"
                                 rows="4"
@@ -121,10 +121,10 @@ export default function ContactForm() {
                             />
                         </div>
                     </div>
-                    <div className="p-1 flex justify-center">
+                    <div className="p-1 mb-10 md:mb-0 flex justify-center">
                         <button
                             disabled={loading}
-                            className="bg-slate-300 rounded-md py-1 shadow-2xl  hover:bg-slate-500 hover:text-orange-600 hover:text-2xl hover:font-bold w-2/3 md:w-full">
+                            className="bg-slate-300 rounded-sm py-3 md:py-1 shadow-2xl  hover:bg-slate-500 hover:text-orange-600 hover:text-2xl hover:font-bold w-2/3 w-full">
                             Submit
                         </button>
                     </div>
