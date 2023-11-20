@@ -111,7 +111,7 @@ export default function Hamburger() {
                         </Link>
                     </ul>
                 </div>
-                <div>
+                {/* <div>
                     <div className="flex flex-row justify-around pt-10 items-center">
 
                         <AiOutlineInstagram
@@ -134,7 +134,7 @@ export default function Hamburger() {
                         />
 
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
