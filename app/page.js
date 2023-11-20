@@ -11,6 +11,7 @@ export default function Home() {
           autoPlay
           playsInline
           muted
+          loop
           className="w-screen h-screen object-cover flex-1"
         >
           <source src="https://res.cloudinary.com/dp04hh5pz/video/upload/v1692109540/OpClean/Vidoes/Nashville.Video_mtqhuc.mp4" type="video/mp4" />
