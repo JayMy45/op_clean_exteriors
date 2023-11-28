@@ -28,9 +28,9 @@ export default function NavBar() {
                         <div className="flex w-full">
                             <div className="ml-auto pr-10 space-x-5 text-green-800">
                                 <Link href="/" className="uppercase hover:text-amber-600">Home</Link>
-                                <Link href="about" className="uppercase hover:text-amber-600">About</Link>
+                                {/* <Link href="about" className="uppercase hover:text-amber-600">About</Link> */}
                                 <Link href="work" className="uppercase hover:text-amber-600">Work</Link>
-                                <Link href="services" className="uppercase hover:text-amber-600">Services</Link>
+                                {/* <Link href="services" className="uppercase hover:text-amber-600">Services</Link> */}
                                 <Link href="contact" className="uppercase hover:text-amber-600">Contact</Link>
                             </div>
                         </div>
