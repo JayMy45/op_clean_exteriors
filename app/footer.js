@@ -70,11 +70,11 @@ export default function Footer() {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-slate-700 text-xs italic">
+                                {/* <div className="text-slate-700 text-xs italic">
                                     <a href="about">
                                         About
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                             <div>
                                 <div className="text-slate-700 text-xs italic">
